@@ -1,0 +1,7 @@
+
+<h1>List of Tasks</h1>
+<ul>
+  {{#each model as |task|}}
+    <li>{{task.title}} - {{task.description}} - {{task.status}} - {{task.dueDate}}</li>
+  {{/each}}
+</ul>

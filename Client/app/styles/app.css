@@ -1,0 +1,118 @@
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.title {
+  color: #092635;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+.input-list > h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #092635;
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+}
+
+.inner-container {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-add {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #65b741;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 20px;
+  color: whitesmoke;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.btn-add:hover {
+  background-color: green;
+  color: #1f1f1f;
+}
+
+label {
+  width: 50%;
+  font-size: larger;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 50%;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: none;
+  outline: none;
+}
+
+.item-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.item > li {
+  width: 100%;
+  font-size: large;
+  letter-spacing: 0.8px;
+  word-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+.item > input {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.item > button {
+  background-color: #fd5c63;
+  color: #092635;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.item > button:hover {
+  background-color: #e32636;
+  color: whitesmoke;
+}
